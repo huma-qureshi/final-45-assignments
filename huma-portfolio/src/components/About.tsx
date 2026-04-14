@@ -3,7 +3,7 @@ import "./styles/About.css";
 const About = () => {
   return (
     <div className="about-section" id="about">
-      <div className="about-content-wrapper" style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '50px', flexWrap: 'wrap', width: '100%', marginTop: '100px' }}>
+      <div className="about-content-wrapper" style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '50px', flexWrap: 'wrap', width: '100%', marginTop: '0px' }}>
         <div className="about-image" style={{ flex: '1', minWidth: '300px', display: 'flex', justifyContent: 'center' }}>
           <img src="/images/about_image.png" alt="Huma Qureshi Full Body" style={{ maxWidth: '400px', width: '100%', borderRadius: '20px' }} />
         </div>

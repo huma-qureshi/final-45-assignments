@@ -239,7 +239,6 @@
   font-weight: 300;
   color: var(--accentColor);
   margin: 0;
-  margin-bottom: 80px;
 }
 
 .landing-info h2 {
@@ -252,6 +251,7 @@
   position: relative;
   display: flex;
   flex-wrap: nowrap;
+  white-space: nowrap;
   text-transform: uppercase;
   letter-spacing: 2px;
 }

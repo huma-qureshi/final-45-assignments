@@ -57,26 +57,26 @@ function LoopText(elem1: string, elem2: string) {
 
   tl.fromTo(
     elem2,
-    { opacity: 0, y: 80 },
+    { opacity: 0, y: 30 },
     { opacity: 1, duration: 1.2, ease: "power3.inOut", y: 0, delay: delay },
     0
   )
     .fromTo(
       elem1,
       { opacity: 1, y: 0 },
-      { opacity: 0, y: -80, duration: 1.2, ease: "power3.inOut", delay: delay },
+      { opacity: 0, y: -30, duration: 1.2, ease: "power3.inOut", delay: delay },
       0
     )
     .fromTo(
       elem1,
-      { opacity: 0, y: 80 },
+      { opacity: 0, y: 30 },
       { opacity: 1, duration: 1.2, ease: "power3.inOut", y: 0, delay: delay2 },
       1
     )
     .fromTo(
       elem2,
       { opacity: 1, y: 0 },
-      { opacity: 0, y: -80, duration: 1.2, ease: "power3.inOut", delay: delay2 },
+      { opacity: 0, y: -30, duration: 1.2, ease: "power3.inOut", delay: delay2 },
       1
     );
 }
