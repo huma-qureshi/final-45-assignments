@@ -1,4 +1,5 @@
 import { MdArrowOutward, MdCopyright } from "react-icons/md";
+import { FaGithub, FaInstagram, FaLinkedinIn, FaXTwitter } from "react-icons/fa6";
 import "./styles/Contact.css";
 
 const Contact = () => {
@@ -24,7 +25,15 @@ const Contact = () => {
               data-cursor="disable"
               className="contact-social"
             >
-              Github <MdArrowOutward />
+              <span style={{ display: 'flex', alignItems: 'center', gap: '8px' }}><FaGithub /> Github</span> <MdArrowOutward />
+            </a>
+            <a
+              href="https://www.linkedin.com/in/humaqureshi-?utm_source=share_via&utm_content=profile&utm_medium=member_android"
+              target="_blank"
+              data-cursor="disable"
+              className="contact-social"
+            >
+              <span style={{ display: 'flex', alignItems: 'center', gap: '8px' }}><FaLinkedinIn /> Linkedin</span> <MdArrowOutward />
             </a>
             <a
               href="#"
@@ -32,23 +41,15 @@ const Contact = () => {
               data-cursor="disable"
               className="contact-social"
             >
-              Linkedin <MdArrowOutward />
+              <span style={{ display: 'flex', alignItems: 'center', gap: '8px' }}><FaXTwitter /> Twitter</span> <MdArrowOutward />
             </a>
             <a
-              href="#"
+              href="https://www.instagram.com/scale_secure?igsh=MWtnZWRmNGNnMHl0MA=="
               target="_blank"
               data-cursor="disable"
               className="contact-social"
             >
-              Twitter <MdArrowOutward />
-            </a>
-            <a
-              href="#"
-              target="_blank"
-              data-cursor="disable"
-              className="contact-social"
-            >
-              Instagram <MdArrowOutward />
+              <span style={{ display: 'flex', alignItems: 'center', gap: '8px' }}><FaInstagram /> Instagram</span> <MdArrowOutward />
             </a>
           </div>
           <div className="contact-box">
