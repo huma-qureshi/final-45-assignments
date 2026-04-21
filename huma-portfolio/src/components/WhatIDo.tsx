@@ -33,6 +33,9 @@ const WhatIDo = () => {
             I<span className="do-h2"> DO</span>
           </div>
         </h2>
+        <p style={{ color: 'var(--textColor, #e5e7eb)', fontSize: '1.2rem', lineHeight: '1.6', maxWidth: '800px', margin: '20px 0 0', paddingRight: '40px' }}>
+          I specialize in Full-Stack Development, Agentic AI, and Cyber Security, building modern, secure, and scalable digital solutions. My work focuses on developing intelligent applications, protecting systems, and creating high-performance web platforms that help businesses grow online.
+        </p>
       </div>
       <div className="what-box">
         <div className="what-box-in">

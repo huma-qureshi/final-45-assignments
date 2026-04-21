@@ -32,8 +32,11 @@ const Landing = ({ children }: PropsWithChildren) => {
           <div className="landing-info">
             <h3>A Professional</h3>
             <h2 className="landing-info-h2">
-              <div className="landing-h2-1">WordPress Developer</div>
-              <div className="landing-h2-2">SEO Strategist</div>
+              <div className="landing-h2-1" style={{ color: "white" }}>AI Developer</div>
+              <div className="landing-h2-2">
+                <span style={{ color: "inherit" }}>&amp;</span>{" "}
+                <span style={{ color: "white" }}>Marketing</span>
+              </div>
             </h2>
           </div>
         </div>

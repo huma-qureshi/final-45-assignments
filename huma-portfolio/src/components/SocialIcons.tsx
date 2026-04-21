@@ -65,7 +65,7 @@ const SocialIcons = () => {
           </a>
         </span>
         <span>
-          <a href="#" target="_blank">
+          <a href="https://www.linkedin.com/in/humaqureshi-?utm_source=share_via&utm_content=profile&utm_medium=member_android" target="_blank">
             <FaLinkedinIn />
           </a>
         </span>
@@ -75,7 +75,7 @@ const SocialIcons = () => {
           </a>
         </span>
         <span>
-          <a href="#" target="_blank">
+          <a href="https://www.instagram.com/scale_secure?igsh=MWtnZWRmNGNnMHl0MA==" target="_blank">
             <FaInstagram />
           </a>
         </span>
