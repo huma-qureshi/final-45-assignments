@@ -27,13 +27,13 @@ const WhatIDo = () => {
   return (
     <div className="whatIDO">
       <div className="what-box">
-        <h2 className="title">
+        <h2 className="title" style={{ textAlign: 'center' }}>
           W<span className="hat-h2">HAT</span>
           <div>
             I<span className="do-h2"> DO</span>
           </div>
         </h2>
-        <p style={{ color: 'var(--textColor, #e5e7eb)', fontSize: '1.2rem', lineHeight: '1.6', maxWidth: '800px', margin: '20px 0 0', paddingRight: '40px' }}>
+        <p style={{ color: 'var(--textColor, #e5e7eb)', fontSize: '1.2rem', lineHeight: '1.6', maxWidth: '800px', margin: '20px auto 40px', padding: '0 20px', textAlign: 'center' }}>
           I specialize in Full-Stack Development, Agentic AI, and Cyber Security, building modern, secure, and scalable digital solutions. My work focuses on developing intelligent applications, protecting systems, and creating high-performance web platforms that help businesses grow online.
         </p>
       </div>

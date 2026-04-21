@@ -23,15 +23,12 @@ const TechStack = () => {
       
       <div style={{ textAlign: 'center', marginBottom: '80px' }}>
         <h3 style={{ fontSize: '3.5rem', fontWeight: 700, color: 'var(--accentColor)', letterSpacing: '2px', textTransform: 'uppercase', position: 'relative', zIndex: 20 }}>My Expertise</h3>
-        <p style={{ color: 'var(--textColor, #e5e7eb)', fontSize: '1.5rem', fontWeight: '500', marginTop: '10px' }}>
-          Full-Stack Developer | Agentic AI Engineer | Cyber Security
-        </p>
       </div>
 
       <div className="expertise-grid" style={{
         display: 'flex', gap: '20px', flexWrap: 'wrap', justifyContent: 'center', maxWidth: '800px', margin: '0 auto', position: 'relative', zIndex: 20
       }}>
-        {["Robotic Engineering", "WordPress", "SEO", "Graphic Design", "Video Editing", "Digital Marketing", "E-commerce Support"].map((skill, index) => (
+        {["Full-Stack Developer", "Agentic AI Engineer", "Cyber Security", "Robotic Engineering", "WordPress", "SEO", "Graphic Design", "Video Editing", "Digital Marketing", "E-commerce Support"].map((skill, index) => (
           <div key={`${skill}-${index}`} style={{
             padding: '15px 30px', 
             background: 'var(--backgroundColor)', 
@@ -40,7 +37,7 @@ const TechStack = () => {
             color: 'var(--accentColor)', 
             fontSize: '1.2rem', 
             fontWeight: '600',
-            boxShadow: '0 0 15px rgba(20, 184, 166, 0.2)'
+            boxShadow: '0 0 5px rgba(20, 184, 166, 0.3)'
           }}>
             {skill}
           </div>
